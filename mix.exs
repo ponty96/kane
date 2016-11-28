@@ -17,7 +17,7 @@ defmodule Kane.Mixfile do
   defp deps do
     [{:goth, "~> 0.1"},
     {:poison, "~> 1.5 or ~> 2.1"},
-    {:httpoison, "~> 0.8.0"},
+    {:httpoison, "~> 0.10.0"},
     {:bypass, "~> 0.1", only: :test},
     {:mix_test_watch, "~> 0.2.5", only: :dev},
     {:ex_doc, "~> 0.11.3", only: [:dev]},
